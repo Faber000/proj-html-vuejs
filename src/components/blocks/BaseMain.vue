@@ -3,15 +3,17 @@
         <AboutUsSection/>
         <SubscribeSection/>
         <SpeakerSection/>
+        <ProgramSection/>
     </main>
 </template>
 
 
 <script>
 
-import AboutUsSection from '@/components/sections/AboutUsSections.vue'
+import AboutUsSection from '@/components/sections/AboutUsSection.vue'
 import SubscribeSection from '@/components/sections/SubscribeSection.vue'
 import SpeakerSection from '@/components/sections/SpeakerSection.vue'
+import ProgramSection from '@/components/sections/ProgramSection.vue'
 
 
 export default {
@@ -26,6 +28,7 @@ export default {
         AboutUsSection,
         SubscribeSection,
         SpeakerSection,
+        ProgramSection,
     }
 }
 </script>
