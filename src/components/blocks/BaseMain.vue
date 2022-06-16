@@ -1,6 +1,8 @@
 <template>
     <main>
         <AboutUsSection/>
+        <SubscribeSection/>
+        <SpeakerSection/>
     </main>
 </template>
 
@@ -8,6 +10,9 @@
 <script>
 
 import AboutUsSection from '@/components/sections/AboutUsSections.vue'
+import SubscribeSection from '@/components/sections/SubscribeSection.vue'
+import SpeakerSection from '@/components/sections/SpeakerSection.vue'
+
 
 export default {
     name: 'BaseMain',
@@ -19,6 +24,8 @@ export default {
 
     components: {
         AboutUsSection,
+        SubscribeSection,
+        SpeakerSection,
     }
 }
 </script>
