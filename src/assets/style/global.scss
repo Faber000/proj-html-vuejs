@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.my-container {
+    width: 1000px;
+    border: 2px solid red;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+small {
+    font-size: 14px;
+}
