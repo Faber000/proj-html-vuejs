@@ -8,7 +8,7 @@
                     <div>We also provide free lunch and coffee break in each day</div>
                 </div>
                 <div>
-                    <div class="full">View Full Program</div>
+                    <div class="full"><b>View Full Program</b></div>
                 </div>
             </div>
 
@@ -116,5 +116,6 @@ img {
 
 .full {
     color: rgb(246, 43, 10);
+    font-style: italic;
 }
 </style>

@@ -1,9 +1,17 @@
 <template>
     <section class="d-flex justify-content-center align-items-center">
-        <div class="my-container d-flex">
-            <AboutUsComponent :title="'WHO WE ARE'" :text="text" filename="speaker-3.jpg"/>
-            <AboutUsComponent :title="'WHAT WE DO'" :text="text" filename="speaker-3.jpg"/>
-            <AboutUsComponent :title="'WHY US?'" :text="text" filename="speaker-3.jpg"/>
+        <div class="my-container container d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-4">
+                    <AboutUsComponent title="WHO WE ARE" :text="text" icon="trophy"/>
+                </div>
+                <div class="col-4">
+                    <AboutUsComponent title="WHAT WE DO" :text="text" icon="bolt"/>
+                </div>
+                <div class="col-4">
+                    <AboutUsComponent title="WHY US" :text="text" icon="question"/>
+                </div>
+            </div>
         </div> 
     </section>
 </template>
@@ -29,6 +37,6 @@ export default {
 <style lang="scss" scoped>
 
 section {
-    height: 200px;
+    height: 300px;
 }
 </style>

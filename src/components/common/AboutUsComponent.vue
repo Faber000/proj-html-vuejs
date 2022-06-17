@@ -1,13 +1,13 @@
 <template>
     <div class="component d-flex justify-content-center">
         <div class="d-flex align-items-start">
-             <img :src="require(`@/assets/images/${filename}`)">
+            <font-awesome-icon :icon="icon" />
         </div>
 
         <div class="d-flex flex-column">
-            <div>{{title}}</div>
+            <div><h5 class="text-dark">{{title}}</h5></div>
             <div>{{text}}</div>
-            <div><a href="">Learn More</a></div>
+            <div class="my-4"><a href=""><b>Learn More</b></a></div>
         </div>
     </div>
 </template>
@@ -24,7 +24,7 @@
         props: {
             title: String,
             text: String,
-            filename: String,
+            icon: String,
         }
     }
 </script>
@@ -42,5 +42,8 @@ img {
 
 a {
     color: rgb(246, 43, 10);
+    font-style: italic;
 }
+
+
 </style>
