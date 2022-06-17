@@ -2,7 +2,7 @@
     <header>
         <div class="my-container m-auto">
             <nav class="navbar bg-white p-2">
-                <a class="navbar-brand" href="#"><b>THE KEYNOTE</b></a>
+                <img src="@/assets/images/logo.png" alt="">
                 <a class="navbar-link" v-for="(link,index) in navLinks" :key="index" href="#"><b>{{link}}</b></a>
             </nav>
         </div>
@@ -30,6 +30,10 @@ export default {
 
 .navbar-link {
     color: gray;
+}
+
+.navbar {
+    height: 50px;
 }
 
 </style>
