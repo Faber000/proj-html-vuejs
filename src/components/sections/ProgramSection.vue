@@ -8,7 +8,7 @@
                     <div>We also provide free lunch and coffee break in each day</div>
                 </div>
                 <div>
-                    <div class="full"><b>View Full Program</b></div>
+                    <div class="full-program"><b>View Full Program</b></div>
                 </div>
             </div>
 
@@ -16,28 +16,26 @@
                 <div class="container">
                     <div class="row first-row">
                         <div class="col active">
-                            <div class="day"><b>DAY 1</b></div>
+                            <div class="day-number"><b>DAY 1</b></div>
                             <div>23 May 2016</div>
                         </div>
                         <div class="col default">
-                            <div class="day"><b>DAY 2</b></div>
+                            <div class="day-number"><b>DAY 2</b></div>
                             <div>23 May 2016</div>
                         </div>
                         <div class="col default">
-                            <div class="day"><b>DAY 3</b></div>
+                            <div class="day-number"><b>DAY 3</b></div>
                             <div>24 May 2016</div>
                         </div>
                         <div class="col default">
-                            <div class="day"><b>DAY 4</b></div>
+                            <div class="day-number"><b>DAY 4</b></div>
                             <div>25 May 2016</div>
                         </div>
                         <div class="col default">
-                            <div class="day"><b>DAY 5</b></div>
+                            <div class="day-number"><b>DAY 5</b></div>
                             <div>26 May 2016</div>
                         </div>
-                        <div class="col default">
-                            
-                        </div>
+                        <div class="col default"></div>
                     </div>
                     <div class="row second-row bg-light">
                         <div class="col-3 col-left">
@@ -46,7 +44,7 @@
                             <div>Testo</div>
                         </div>
                         <div class="col col-right">
-                            <h4><b>WELCOMING AND INTRODUCTION</b></h4>
+                            <h4>WELCOMING AND INTRODUCTION</h4>
                             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error dolor cum distinctio laboriosam,</div>
                             <img src="@/assets/images/speaker-8-150x150.jpg" alt="">
                         </div>
@@ -91,7 +89,7 @@ section {
     background-color: rgb(246, 43, 10);
 }
 
-.day {
+.day-number {
     font-size: 18px;
 }
 
@@ -114,7 +112,7 @@ img {
     margin-top: 20px;
 }
 
-.full {
+.full-program {
     color: rgb(246, 43, 10);
     font-style: italic;
 }

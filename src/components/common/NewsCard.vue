@@ -1,10 +1,10 @@
 <template>
     <div class="card d-flex flex-column p-2">
         <img :src="require(`@/assets/images/${filename}`)">
-        <div class="text-secondary">{{data}}</div>
+        <div class="text-secondary data">{{data}}</div>
         <div><b>{{title}}</b></div>
         <div>{{text}}</div>
-        <div><a class="text-danger" href="">Read More</a></div>
+        <div><a class="text-danger" href=""><b>Read More</b></a></div>
     </div>
 </template>
 
@@ -31,5 +31,13 @@
 
 .card > *{
     margin-bottom: 10px;
+}
+
+a {
+    font-style: italic;
+}
+
+.data {
+    font-style: italic;
 }
 </style>

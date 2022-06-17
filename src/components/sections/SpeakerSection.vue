@@ -4,15 +4,15 @@
             <div class="d-flex justify-content-between">
                 <div class="title"><b>SPEAKERS</b></div>
                 <div class="d-flex">
-                    <button class="mx-2"></button>
-                    <button></button>
+                    <button class="mx-2"><font-awesome-icon icon="fa-solid fa-arrow-left" /></button>
+                    <button><font-awesome-icon icon="fa-solid fa-arrow-right" /></button>
                 </div>
             </div>
             <div class="cards d-flex justify-content-between">
-                <SpeakerCard :name="'PATRICK SPENCER'" :role="'S&P Analyzer'" filename="speaker-2.jpg"/>
-                <SpeakerCard :name="'JANET JONES'" :role="'Newyork Post GM'" filename="speaker-5.jpg"/>
-                <SpeakerCard :name="'MICHAEL DOVER'" :role="'Starbucks CEO'" filename="speaker-4.jpg"/>
-                <SpeakerCard :name="'ANGELINA HOLY'" :role="'Maxii Manager'" filename="speaker-3.jpg"/>
+                <SpeakerCard name="PATRICK SPENCER" role="S and P Analyzer" filename="speaker-2.jpg"/>
+                <SpeakerCard name="JANET JONES" role="Newyork Post GM" filename="speaker-5.jpg"/>
+                <SpeakerCard name="MICHAEL DOVER" role="Starbucks CEO" filename="speaker-4.jpg"/>
+                <SpeakerCard name="ANGELINA HOLY" role="Maxii Manager" filename="speaker-3.jpg"/>
             </div>
         </div>
     </section>

@@ -52,8 +52,4 @@ section {
     width: 850px;
 }
 
-.my-container {
-    width: 1200px;
-}
-
 </style>

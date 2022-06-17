@@ -1,8 +1,8 @@
 <template>
     <div class="card d-flex flex-column p-2">
         <div class="card-top d-flex flex-column justify-content-center align-items-center p-3">
-            <div><b>{{title}}</b></div>
-            <div class="text-danger"><b>{{price}}</b></div>
+            <div><h4 class="title">{{title}}</h4></div>
+            <div><h4 class="price">{{price}}</h4></div>
         </div>
         <div class="card-center d-flex flex-column justify-content-center align-items-center p-3">
             <div>{{text}}</div>
@@ -10,6 +10,7 @@
             <div>Lunch</div>
             <div>Document Sheets</div>
             <div>Coffee Break</div>
+            <div>100USD Voucher for next event</div>
         </div>
         <div class="card-bottom d-flex flex-column justify-content-center align-items-center p-3">
             <div><b>BOOK NOW</b></div>
@@ -49,7 +50,19 @@
     background-color: rgb(249, 249, 249);
 }
 
+.card-center > * {
+    font-style: italic;
+}
+
 .card {
     border: none;
+}
+
+.title {
+    color: black;
+}
+
+.price {
+    color: rgb(243, 46, 10);
 }
 </style>

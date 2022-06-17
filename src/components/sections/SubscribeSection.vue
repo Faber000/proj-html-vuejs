@@ -1,20 +1,20 @@
 <template>
     <section class="d-flex justify-content-center align-items-center">
         <div class="my-container d-flex align-items-center flex-column">
-            <div class="time d-flex justify-content-center">
-                <div class="block block-1 opacity-75 bg-black d-flex justify-content-center align-items-center flex-column">
+            <div class="d-flex justify-content-center">
+                <div class="time-block block-1 opacity-75 bg-black d-flex justify-content-center align-items-center flex-column">
                     <div class="number">3399</div>
                     <div>DAYS</div>
                 </div>
-                <div class="block block-2 opacity-50 bg-black d-flex justify-content-center align-items-center flex-column">
+                <div class="time-block block-2 opacity-50 bg-black d-flex justify-content-center align-items-center flex-column">
                     <div class="number">17</div>
                     <div>HOURS</div>
                 </div>
-                <div class="block block-3 opacity-50 bg-black d-flex justify-content-center align-items-center flex-column">
+                <div class="time-block block-3 opacity-50 bg-black d-flex justify-content-center align-items-center flex-column">
                     <div class="number">28</div>
                     <div>MINS</div>
                 </div>
-                <div class="block block-4 opacity-50 bg-black d-flex justify-content-center align-items-center flex-column">
+                <div class="time-block block-4 opacity-50 bg-black d-flex justify-content-center align-items-center flex-column">
                     <div class="number">17</div>
                     <div>SECS</div>
                 </div>
@@ -65,7 +65,7 @@ input {
     margin-right: 10px;
 }
 
-.block {
+.time-block {
     height: 120px;
     margin-right: 20px;
     min-width: 120px;

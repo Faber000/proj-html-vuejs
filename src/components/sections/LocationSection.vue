@@ -6,13 +6,9 @@
                 <small>11 GD Building, River Mall, New York, USA 8879</small>
                 <small class="text-danger">Check for Accomodations here</small>   
                 <img src="@/assets/images/1-item-2.jpg" alt=""> 
-                <div class="d-flex contacts">
-                    <div class="mx-5">
-                        +1-117-222-3344
-                    </div>
-                    <div>
-                        Contact@TheKeynodeTheme.com
-                    </div>
+                <div class="d-flex justify-content-between contacts">
+                    <div>+1-117-222-3344</div>
+                    <div>Contact@TheKeynodeTheme.com</div>
                 </div>     
             </div>
     </section>
@@ -46,4 +42,7 @@ small, .contacts {
     color: white;
 }
 
+.contacts {
+    width: 550px;
+}
 </style>
